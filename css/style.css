@@ -171,9 +171,10 @@ a {
 }
 
 .hero-alias {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     color: var(--sky-dark);
     font-weight: 600;
+    margin-top: -4px;
     margin-bottom: 4px;
     letter-spacing: 1px;
 }
