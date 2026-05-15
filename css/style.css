@@ -350,6 +350,12 @@ a {
     border: 2px solid var(--sky-main);
 }
 
+.contact-btn.email {
+    background: linear-gradient(135deg, var(--sky-main), var(--sky-deep));
+    color: var(--white);
+    border-color: transparent;
+}
+
 .contact-btn.github {
     background: var(--white);
     color: var(--sky-dark);
@@ -358,6 +364,13 @@ a {
 .contact-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 24px var(--shadow-medium);
+}
+
+.contact-btn.email:hover {
+    background: linear-gradient(135deg, var(--sky-deep), var(--sky-dark));
+}
+
+.contact-btn.github:hover {
     background: var(--sky-light);
 }
 
