@@ -170,6 +170,14 @@ a {
     color: var(--sky-deep);
 }
 
+.hero-alias {
+    font-size: 1.1rem;
+    color: var(--sky-dark);
+    font-weight: 600;
+    margin-bottom: 4px;
+    letter-spacing: 1px;
+}
+
 .hero-subtitle {
     font-size: 1.2rem;
     color: var(--text-light);
